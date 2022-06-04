@@ -1,0 +1,56 @@
+html {
+    background-image: url('../images/background.png');
+    /* background-color: darkgreen; */
+}
+body {margin: 5 auto;
+    background-size: auto;
+    padding: 0 5px 5px 5px;
+    border: #025f28;
+  }
+hl {
+    /* background-image:url('../images/safari.png'); */
+    opacity: 0.8;
+    background-color: #ffffff;
+    background-position: absolute;
+                         left: -50px;
+                         top: 150px;
+    background-position-x: left;
+    background-size: auto;
+    font-size: 90px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    height: 150px;
+    position:absolute;
+         left: 0px;
+         top: 222px;
+    color: rgb(0, 0, 0);}
+
+manuLeft {
+    display: block;
+    opacity: 0.8;
+    background-color: #ffffff;
+    position: absolute;
+    left: 5px;
+    top: 385px;
+    padding-left: 80px;
+    padding-right: 216px;
+    font-size: 40px;
+    border: #637c6d;
+}
+manuRight{
+    display: block;
+    opacity: 0.8;
+    background-color: #ffffff;
+    position: absolute;
+    right: 5px;
+    top: 385px;
+    padding-left:216px;
+    padding-right: 80px;
+    font-size: 40px;
+    border: 50px #637c6d;
+}
+
+li {color: rgb(5, 96, 56);
+    font-size: 40px;}
+
