@@ -1,14 +1,11 @@
 html {
     background-image: url('../images/background.png');
-    /* background-color: darkgreen; */
 }
-body {margin: 5 auto;
+/* body {margin: 0 auto;
     background-size: auto;
-    padding: 0 5px 5px 5px;
     border: #025f28;
-  }
+  } */
   hl {
-    /* background-image:url('../images/safari.png'); */
     opacity: 0.8;
     background-color: #ffffff;
     background-position: absolute;
@@ -45,29 +42,35 @@ body {margin: 5 auto;
         color: rgb(0, 0, 0);}
 
 manuLeft {
+    margin-top:0 ;
+    margin-left: 30px;
+    margin-right:800px ;
     display: block;
     opacity: 0.8;
     background-color: #ffffff;
     position: absolute;
     left: 5px;
-    top: 385px;
-    padding-left: 80px;
-    padding-right: 216px;
-    font-size: 40px;
+    top: 365px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 25px;
     border: #637c6d;
     border-radius: 25px;
 }
 manuRight{
+    margin-top:0 ;
+    margin-left: 750px;
+    margin-right:60px ;
     display: block;
     opacity: 0.8;
     background-color: #ffffff;
     position: absolute;
-    right: 5px;
-    top: 385px;
-    padding-left:216px;
-    padding-right: 80px;
-    font-size: 40px;
-    border: 50px #637c6d;
+    right:5px;
+    top: 365px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 25px;
+    border: #637c6d;
     border-radius: 25px;
 }
 nav {
@@ -94,7 +97,7 @@ manuNew{
     top: 180px;
     padding-left: 80px;
     padding-right: 216px;
-    font-size: 40px;
+    font-size: 25px;
     border: #637c6d;
     border-radius: 25px;
 }
@@ -103,4 +106,45 @@ a + em {color: rgb(5, 96, 56);
 }
 li {color: rgb(5, 96, 56);
     font-size: 40px;}
+    
+.special{
+    padding-left:25px;
+    padding-right: 180px;
+    size: 200px;
+    font-size: 20px;
+    color: cornflowerblue ;
+    list-style-type: none;
+    display: inline-block;   
+}
 
+.dishes{
+    padding-left:5px;
+    padding-right: 180px;
+    font-size: 25px;
+    float: left;
+}
+
+.price{
+    position: absolute;
+    left: 290px;
+    padding-left:290px;
+    padding-right: 5px;
+    font-size: 25px;
+    display: inline-block;   
+}
+
+.titleML{
+    align-self: center;
+    background-color: #025f28;
+    color: #ffffff;
+    font-size: 45px;
+    border-radius: 5px;
+}
+
+.titleRL{
+    align-self: center;
+    background-color: #025f28;
+    color: #ffffff;
+    font-size: 45px;
+    border-radius: 5px;
+}
