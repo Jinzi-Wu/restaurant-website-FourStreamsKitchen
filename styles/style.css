@@ -41,7 +41,7 @@ html {
              top: 5px;
         color: rgb(0, 0, 0);}
 
-manuLeft {
+menuLeft {
     margin-top:0 ;
     margin-left: 30px;
     margin-right:800px ;
@@ -57,7 +57,7 @@ manuLeft {
     border: #637c6d;
     border-radius: 25px;
 }
-manuRight{
+menuRight{
     margin-top:0 ;
     margin-left: 750px;
     margin-right:60px ;
@@ -88,7 +88,7 @@ a{
     color: #ffffff;
     font-size: 50px;
 }
-manuNew{
+menuNew{
     display: block;
     opacity: 0.8;
     background-color: #ffffff;
